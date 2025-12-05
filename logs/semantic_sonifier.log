@@ -1,0 +1,523 @@
+2025-10-02 17:52:03 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-02 17:52:03 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-02 17:52:03 - semantic_sonifier - INFO - test_logging.py:13 - This is an INFO message - general info
+2025-10-02 17:52:03 - semantic_sonifier - WARNING - test_logging.py:14 - This is a WARNING message - something concerning
+2025-10-02 17:52:03 - semantic_sonifier - ERROR - test_logging.py:15 - This is an ERROR message - something went wrong
+2025-10-02 17:52:03 - semantic_sonifier - INFO - logging.py:83 - Starting: Test Operation
+2025-10-02 17:52:03 - semantic_sonifier - INFO - test_logging.py:19 - Doing some work...
+2025-10-02 17:52:03 - semantic_sonifier - INFO - logging.py:89 - Completed: Test Operation in 0.21s
+2025-10-02 17:53:14 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-02 17:53:14 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-02 17:53:14 - semantic_sonifier.TestModel - INFO - test_base_architecture.py:13 - Loading test model: test-model
+2025-10-02 17:53:14 - semantic_sonifier.TestModel - INFO - test_base_architecture.py:19 - Processing: test input
+2025-10-02 17:53:14 - semantic_sonifier.TestModel - INFO - base.py:49 - Unloaded model: test-model
+2025-10-02 17:53:14 - semantic_sonifier.test-component - INFO - logging.py:83 - Starting: test-component.process
+2025-10-02 17:53:14 - semantic_sonifier.test-component - INFO - logging.py:89 - Completed: test-component.process in 0.00s
+2025-10-05 16:50:49 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-05 16:50:49 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-05 17:00:49 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-05 17:00:49 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-05 17:00:52 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-05 17:00:52 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-05 17:00:55 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-05 17:00:55 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-05 17:01:05 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-05 17:01:05 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-05 17:01:20 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-05 17:01:20 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-05 17:06:42 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-05 17:06:42 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-05 17:10:06 - semantic_sonifier - INFO - app.py:63 - Processing image: image.jpeg
+2025-10-05 17:10:06 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:168 - Initializing Semantic Sonifier...
+2025-10-05 17:10:06 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:171 - ✓ Semantic Sonifier initialized
+2025-10-05 17:10:06 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-10-05 17:10:06 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-10-05 17:10:06 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/df1dc3c5-d3df-4317-b1e8-e37d2036f529_image.jpeg
+2025-10-05 17:10:06 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Loading BLIP-2
+2025-10-05 17:17:15 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:40 - ✓ BLIP-2 loaded successfully
+2025-10-05 17:17:15 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Loading BLIP-2 in 429.44s
+2025-10-05 17:17:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Loading CLIP-Mood-Analyzer
+2025-10-05 17:17:44 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:34 - ✓ CLIP-Mood-Analyzer loaded with 16 mood tags
+2025-10-05 17:17:44 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Loading CLIP-Mood-Analyzer in 28.62s
+2025-10-05 17:17:44 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-10-05 17:17:44 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.06s
+2025-10-05 17:17:44 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-10-05 17:18:09 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'trees line the road in a foggy field'
+2025-10-05 17:18:09 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 24.86s
+2025-10-05 17:18:09 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-10-05 17:18:09 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-10-05 17:18:09 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-10-05 17:18:09 - semantic_sonifier.CLIPMoodAnalyzer - ERROR - logging.py:91 - Failed: CLIP mood analysis after 0.18s - Expected one of cpu, cuda, ipu, xpu, mkldnn, opengl, opencl, ideep, hip, ve, fpga, maia, xla, lazy, vulkan, mps, meta, hpu, mtia, privateuseone device type at start of device string: auto
+2025-10-05 17:18:09 - semantic_sonifier.CLIPMoodAnalyzer - ERROR - clip_mood_analyzer.py:93 - Mood analysis failed for uploads/df1dc3c5-d3df-4317-b1e8-e37d2036f529_image.jpeg: Expected one of cpu, cuda, ipu, xpu, mkldnn, opengl, opencl, ideep, hip, ve, fpga, maia, xla, lazy, vulkan, mps, meta, hpu, mtia, privateuseone device type at start of device string: auto
+2025-10-05 17:18:09 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 483.17s
+2025-10-05 17:18:09 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-10-05 17:18:09 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-10-05 17:18:09 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Loading MusicGen
+2025-10-05 17:19:19 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:37 - ✓ MusicGen loaded with sample rate 32000
+2025-10-05 17:19:19 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Loading MusicGen in 70.12s
+2025-10-05 17:19:19 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A neutral piece of music, A neutral piece of music for trees line the road in a foggy field'
+2025-10-05 17:19:19 - semantic_sonifier.MusicGenerator - ERROR - logging.py:91 - Failed: Music generation: 'A neutral piece of music, A neutral piece of music for trees line the road in a foggy field' after 0.00s - Expected one of cpu, cuda, ipu, xpu, mkldnn, opengl, opencl, ideep, hip, ve, fpga, maia, xla, lazy, vulkan, mps, meta, hpu, mtia, privateuseone device type at start of device string: auto
+2025-10-05 17:19:19 - semantic_sonifier.MusicOrchestrator - ERROR - logging.py:91 - Failed: MusicOrchestrator.process after 70.12s - Expected one of cpu, cuda, ipu, xpu, mkldnn, opengl, opencl, ideep, hip, ve, fpga, maia, xla, lazy, vulkan, mps, meta, hpu, mtia, privateuseone device type at start of device string: auto
+2025-10-05 17:19:19 - semantic_sonifier.MusicOrchestrator - ERROR - base.py:79 - Failed in MusicOrchestrator: Expected one of cpu, cuda, ipu, xpu, mkldnn, opengl, opencl, ideep, hip, ve, fpga, maia, xla, lazy, vulkan, mps, meta, hpu, mtia, privateuseone device type at start of device string: auto
+Traceback (most recent call last):
+  File "/Users/suryatejametta/semantic-sonifier/src/models/base.py", line 74, in safe_process
+    result = self.process(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/suryatejametta/semantic-sonifier/src/models/sonifier.py", line 89, in process
+    audio_array, sample_rate = self.music_generator.generate_with_emotion(
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/suryatejametta/semantic-sonifier/src/models/music_generator.py", line 115, in generate_with_emotion
+    return self.process(enhanced_prompt, duration)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/suryatejametta/semantic-sonifier/src/models/music_generator.py", line 69, in process
+    inputs = self.to_device(inputs)
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/suryatejametta/semantic-sonifier/src/models/base.py", line 36, in to_device
+    return {k: v.to(self.device) if hasattr(v, 'to') else v
+              ^^^^^^^^^^^^^^^^^
+RuntimeError: Expected one of cpu, cuda, ipu, xpu, mkldnn, opengl, opencl, ideep, hip, ve, fpga, maia, xla, lazy, vulkan, mps, meta, hpu, mtia, privateuseone device type at start of device string: auto
+2025-10-05 17:19:19 - semantic_sonifier.SemanticSonifier - ERROR - logging.py:91 - Failed: Semantic Sonification after 553.30s - Expected one of cpu, cuda, ipu, xpu, mkldnn, opengl, opencl, ideep, hip, ve, fpga, maia, xla, lazy, vulkan, mps, meta, hpu, mtia, privateuseone device type at start of device string: auto
+2025-10-05 17:19:19 - semantic_sonifier - ERROR - app.py:88 - Processing failed: Expected one of cpu, cuda, ipu, xpu, mkldnn, opengl, opencl, ideep, hip, ve, fpga, maia, xla, lazy, vulkan, mps, meta, hpu, mtia, privateuseone device type at start of device string: auto
+2025-10-06 09:50:46 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-06 09:50:46 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-06 09:50:47 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-10-06 09:50:47 - semantic_sonifier.DeviceManager - INFO - device_manager.py:64 - === Device Information ===
+2025-10-06 09:50:47 - semantic_sonifier.DeviceManager - INFO - device_manager.py:65 - Preferred device: mps
+2025-10-06 09:50:47 - semantic_sonifier.DeviceManager - INFO - device_manager.py:66 - Available devices:
+2025-10-06 09:50:47 - semantic_sonifier.DeviceManager - INFO - device_manager.py:72 -   - MPS: Apple Silicon GPU
+2025-10-06 09:50:47 - semantic_sonifier.DeviceManager - INFO - device_manager.py:73 - ==========================
+2025-10-06 09:50:50 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-06 09:50:50 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-06 09:50:58 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-06 09:50:58 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-06 09:50:59 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-10-06 09:50:59 - semantic_sonifier.DeviceManager - INFO - device_manager.py:64 - === Device Information ===
+2025-10-06 09:50:59 - semantic_sonifier.DeviceManager - INFO - device_manager.py:65 - Preferred device: mps
+2025-10-06 09:50:59 - semantic_sonifier.DeviceManager - INFO - device_manager.py:66 - Available devices:
+2025-10-06 09:50:59 - semantic_sonifier.DeviceManager - INFO - device_manager.py:72 -   - MPS: Apple Silicon GPU
+2025-10-06 09:50:59 - semantic_sonifier.DeviceManager - INFO - device_manager.py:73 - ==========================
+2025-10-06 09:50:59 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-10-06 09:51:11 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-06 09:51:11 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-06 14:22:11 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-06 14:22:11 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-06 14:22:55 - semantic_sonifier - INFO - app.py:63 - Processing image: image.png
+2025-10-06 14:22:55 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:168 - Initializing Semantic Sonifier...
+2025-10-06 14:22:55 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:171 - ✓ Semantic Sonifier initialized
+2025-10-06 14:22:55 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-10-06 14:22:55 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-10-06 14:22:55 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/92014bdb-a966-42df-8ddf-d6d56e98fc2a_image.png
+2025-10-06 14:22:55 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-10-06 14:22:55 - semantic_sonifier.BLIP2Model - INFO - base.py:28 - Initialized BLIP-2 on device: mps
+2025-10-06 14:22:55 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Loading BLIP-2
+2025-10-06 14:23:25 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:40 - ✓ BLIP-2 loaded successfully
+2025-10-06 14:23:25 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Loading BLIP-2 in 30.13s
+2025-10-06 14:23:25 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-10-06 14:23:25 - semantic_sonifier.CLIPMoodAnalyzer - INFO - base.py:28 - Initialized CLIP-Mood-Analyzer on device: mps
+2025-10-06 14:23:25 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Loading CLIP-Mood-Analyzer
+2025-10-06 14:23:31 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:34 - ✓ CLIP-Mood-Analyzer loaded with 16 mood tags
+2025-10-06 14:23:31 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Loading CLIP-Mood-Analyzer in 5.79s
+2025-10-06 14:23:31 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-10-06 14:23:31 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.08s
+2025-10-06 14:23:31 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-10-06 14:23:34 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'a wooden dock stretches out into the ocean at sunset'
+2025-10-06 14:23:34 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 2.97s
+2025-10-06 14:23:34 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-10-06 14:23:34 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-10-06 14:23:34 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-10-06 14:23:36 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: serene (confidence: 0.426)
+2025-10-06 14:23:36 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 1.81s
+2025-10-06 14:23:36 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 40.80s
+2025-10-06 14:23:36 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-10-06 14:23:36 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-10-06 14:23:36 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-10-06 14:23:36 - semantic_sonifier.MusicGenerator - INFO - base.py:28 - Initialized MusicGen on device: mps
+2025-10-06 14:23:36 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Loading MusicGen
+2025-10-06 14:23:45 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:37 - ✓ MusicGen loaded with sample rate 32000
+2025-10-06 14:23:45 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Loading MusicGen in 9.18s
+2025-10-06 14:23:45 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A serene piece of music, A serene piece of music for a wooden dock stretches out into the ocean at sunset, with elements of peaceful, ambient pads and gentle flutes'
+2025-10-06 14:24:14 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A serene piece of music, A serene piece of music for a wooden dock stretches out into the ocean at sunset, with elements of peaceful, ambient pads and gentle flutes'
+2025-10-06 14:24:14 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A serene piece of music, A serene piece of music for a wooden dock stretches out into the ocean at sunset, with elements of peaceful, ambient pads and gentle flutes' in 28.52s
+2025-10-06 14:24:14 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 37.70s
+2025-10-06 14:24:14 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of serene music for: a wooden dock stretches out into the ocean at sunset
+2025-10-06 14:24:14 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 78.50s
+2025-10-06 14:49:27 - semantic_sonifier - INFO - app.py:63 - Processing image: image.png
+2025-10-06 14:49:27 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-10-06 14:49:27 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-10-06 14:49:27 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/c86838aa-d031-4298-97ac-3c9cddef2c91_image.png
+2025-10-06 14:49:27 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-10-06 14:49:27 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.01s
+2025-10-06 14:49:27 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-10-06 14:49:57 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'a forest fire burning in the middle of the night'
+2025-10-06 14:49:57 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 29.91s
+2025-10-06 14:49:57 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-10-06 14:49:57 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-10-06 14:49:57 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-10-06 14:50:03 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: intense (confidence: 0.205)
+2025-10-06 14:50:03 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 6.64s
+2025-10-06 14:50:03 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 36.56s
+2025-10-06 14:50:03 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-10-06 14:50:03 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-10-06 14:50:03 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A intense piece of music, A intense piece of music for a forest fire burning in the middle of the night, epic orchestral strings and horns'
+2025-10-06 14:50:31 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A intense piece of music, A intense piece of music for a forest fire burning in the middle of the night, epic orchestral strings and horns'
+2025-10-06 14:50:31 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A intense piece of music, A intense piece of music for a forest fire burning in the middle of the night, epic orchestral strings and horns' in 27.80s
+2025-10-06 14:50:31 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 27.80s
+2025-10-06 14:50:31 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of intense music for: a forest fire burning in the middle of the night
+2025-10-06 14:50:31 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 64.37s
+2025-10-06 15:08:01 - semantic_sonifier - INFO - app.py:63 - Processing image: image.png
+2025-10-06 15:08:01 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-10-06 15:08:01 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-10-06 15:08:01 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/81bd4a0a-d35c-4847-976a-4e3d825c2c7f_image.png
+2025-10-06 15:08:01 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-10-06 15:08:01 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.00s
+2025-10-06 15:08:01 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-10-06 15:08:15 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'a forest fire burning in the middle of the night'
+2025-10-06 15:08:15 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 14.44s
+2025-10-06 15:08:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-10-06 15:08:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-10-06 15:08:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-10-06 15:08:16 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: intense (confidence: 0.205)
+2025-10-06 15:08:16 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 0.47s
+2025-10-06 15:08:16 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 14.91s
+2025-10-06 15:08:16 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-10-06 15:08:16 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-10-06 15:08:16 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A intense piece of music, A intense piece of music for a forest fire burning in the middle of the night, epic orchestral strings and horns'
+2025-10-06 15:08:41 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A intense piece of music, A intense piece of music for a forest fire burning in the middle of the night, epic orchestral strings and horns'
+2025-10-06 15:08:41 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A intense piece of music, A intense piece of music for a forest fire burning in the middle of the night, epic orchestral strings and horns' in 24.98s
+2025-10-06 15:08:41 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 24.98s
+2025-10-06 15:08:41 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of intense music for: a forest fire burning in the middle of the night
+2025-10-06 15:08:41 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 39.89s
+2025-10-06 15:11:47 - semantic_sonifier - INFO - app.py:63 - Processing image: image.png
+2025-10-06 15:11:47 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-10-06 15:11:47 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-10-06 15:11:47 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/91fe1b3d-eac1-4a38-9b1c-d13d40fedaa7_image.png
+2025-10-06 15:11:47 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-10-06 15:11:47 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.00s
+2025-10-06 15:11:47 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-10-06 15:12:08 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'a group of people standing in front of a fire with lightning in the background'
+2025-10-06 15:12:08 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 20.06s
+2025-10-06 15:12:08 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-10-06 15:12:08 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-10-06 15:12:08 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-10-06 15:12:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: dramatic (confidence: 0.361)
+2025-10-06 15:12:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 7.91s
+2025-10-06 15:12:15 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 27.99s
+2025-10-06 15:12:15 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-10-06 15:12:15 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-10-06 15:12:15 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A dramatic piece of music, A dramatic piece of music for a group of people standing in front of a fire with lightning in the background, with elements of chaotic'
+2025-10-06 15:12:42 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A dramatic piece of music, A dramatic piece of music for a group of people standing in front of a fire with lightning in the background, with elements of chaotic'
+2025-10-06 15:12:42 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A dramatic piece of music, A dramatic piece of music for a group of people standing in front of a fire with lightning in the background, with elements of chaotic' in 26.51s
+2025-10-06 15:12:42 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 26.51s
+2025-10-06 15:12:42 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of dramatic music for: a group of people standing in front of a fire with lightning in the background
+2025-10-06 15:12:42 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 54.50s
+2025-10-06 15:25:53 - semantic_sonifier - INFO - app.py:63 - Processing image: image.jpeg
+2025-10-06 15:25:53 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-10-06 15:25:53 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-10-06 15:25:53 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/3c014a4a-d889-4533-8a8e-d349d9e1c6ca_image.jpeg
+2025-10-06 15:25:53 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-10-06 15:25:53 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.00s
+2025-10-06 15:25:53 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-10-06 15:26:10 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'an aerial view of a soccer stadium'
+2025-10-06 15:26:10 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 17.02s
+2025-10-06 15:26:10 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-10-06 15:26:10 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-10-06 15:26:10 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-10-06 15:26:11 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: intense (confidence: 0.181)
+2025-10-06 15:26:11 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 0.42s
+2025-10-06 15:26:11 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 17.45s
+2025-10-06 15:26:11 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-10-06 15:26:11 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-10-06 15:26:11 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A intense piece of music, A intense piece of music for an aerial view of a soccer stadium'
+2025-10-06 15:26:36 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A intense piece of music, A intense piece of music for an aerial view of a soccer stadium'
+2025-10-06 15:26:36 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A intense piece of music, A intense piece of music for an aerial view of a soccer stadium' in 25.55s
+2025-10-06 15:26:36 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 25.55s
+2025-10-06 15:26:36 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of intense music for: an aerial view of a soccer stadium
+2025-10-06 15:26:36 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 43.00s
+2025-10-06 21:56:09 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-06 21:56:09 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-06 21:59:11 - semantic_sonifier - INFO - app.py:63 - Processing image: image.jpeg
+2025-10-06 21:59:11 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:168 - Initializing Semantic Sonifier...
+2025-10-06 21:59:11 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:171 - ✓ Semantic Sonifier initialized
+2025-10-06 21:59:11 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-10-06 21:59:11 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-10-06 21:59:11 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/87aedf64-9f11-4d1e-94da-e0574ce09e38_image.jpeg
+2025-10-06 21:59:11 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-10-06 21:59:11 - semantic_sonifier.BLIP2Model - INFO - base.py:28 - Initialized BLIP-2 on device: mps
+2025-10-06 21:59:11 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Loading BLIP-2
+2025-10-06 21:59:45 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:40 - ✓ BLIP-2 loaded successfully
+2025-10-06 21:59:45 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Loading BLIP-2 in 33.15s
+2025-10-06 21:59:45 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-10-06 21:59:45 - semantic_sonifier.CLIPMoodAnalyzer - INFO - base.py:28 - Initialized CLIP-Mood-Analyzer on device: mps
+2025-10-06 21:59:45 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Loading CLIP-Mood-Analyzer
+2025-10-06 21:59:52 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:34 - ✓ CLIP-Mood-Analyzer loaded with 16 mood tags
+2025-10-06 21:59:52 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Loading CLIP-Mood-Analyzer in 7.56s
+2025-10-06 21:59:52 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-10-06 21:59:52 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.06s
+2025-10-06 21:59:52 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-10-06 21:59:58 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'trees line the road in a foggy field'
+2025-10-06 21:59:58 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 6.00s
+2025-10-06 21:59:58 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-10-06 21:59:58 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-10-06 21:59:58 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-10-06 21:59:59 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: melancholic (confidence: 0.291)
+2025-10-06 21:59:59 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 0.84s
+2025-10-06 21:59:59 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 47.72s
+2025-10-06 21:59:59 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-10-06 21:59:59 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-10-06 21:59:59 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-10-06 21:59:59 - semantic_sonifier.MusicGenerator - INFO - base.py:28 - Initialized MusicGen on device: mps
+2025-10-06 21:59:59 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Loading MusicGen
+2025-10-06 22:00:09 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:37 - ✓ MusicGen loaded with sample rate 32000
+2025-10-06 22:00:09 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Loading MusicGen in 9.79s
+2025-10-06 22:00:09 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A melancholic piece of music, A melancholic piece of music for trees line the road in a foggy field'
+2025-10-06 22:00:47 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A melancholic piece of music, A melancholic piece of music for trees line the road in a foggy field'
+2025-10-06 22:00:47 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A melancholic piece of music, A melancholic piece of music for trees line the road in a foggy field' in 38.24s
+2025-10-06 22:00:47 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 48.04s
+2025-10-06 22:00:47 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of melancholic music for: trees line the road in a foggy field
+2025-10-06 22:00:47 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 95.76s
+2025-10-06 22:11:23 - semantic_sonifier - INFO - app.py:63 - Processing image: image.jpeg
+2025-10-06 22:11:23 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-10-06 22:11:23 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-10-06 22:11:23 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/2a690898-dd50-4974-988e-a8dd5c21ccb2_image.jpeg
+2025-10-06 22:11:23 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-10-06 22:11:23 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.00s
+2025-10-06 22:11:23 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-10-06 22:12:00 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'trees line the road in a foggy field'
+2025-10-06 22:12:00 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 36.64s
+2025-10-06 22:12:00 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-10-06 22:12:00 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-10-06 22:12:00 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-10-06 22:12:06 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: melancholic (confidence: 0.291)
+2025-10-06 22:12:06 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 6.30s
+2025-10-06 22:12:06 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 42.95s
+2025-10-06 22:12:06 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-10-06 22:12:06 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-10-06 22:12:06 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A melancholic piece of music, A melancholic piece of music for trees line the road in a foggy field'
+2025-10-06 22:12:45 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A melancholic piece of music, A melancholic piece of music for trees line the road in a foggy field'
+2025-10-06 22:12:45 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A melancholic piece of music, A melancholic piece of music for trees line the road in a foggy field' in 39.11s
+2025-10-06 22:12:45 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 39.11s
+2025-10-06 22:12:45 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of melancholic music for: trees line the road in a foggy field
+2025-10-06 22:12:45 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 82.06s
+2025-10-31 09:01:28 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-31 09:01:28 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-31 09:01:59 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-31 09:01:59 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-31 09:23:40 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-31 09:23:40 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-31 09:41:38 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-31 09:41:38 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-10-31 09:46:22 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-10-31 09:46:22 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-03 10:22:32 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-11-03 10:22:32 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-03 10:27:07 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-11-03 10:27:07 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-03 10:36:35 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-11-03 10:36:35 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-03 10:36:39 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-11-03 10:36:39 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-03 10:36:51 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-11-03 10:36:51 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-03 10:41:19 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-11-03 10:41:19 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-03 11:42:26 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-11-03 11:42:26 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-03 11:53:26 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-11-03 11:53:26 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-04 21:13:13 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-11-04 21:13:13 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-04 21:17:58 - semantic_sonifier - INFO - app.py:63 - Processing image: image.png
+2025-11-04 21:17:58 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:168 - Initializing Semantic Sonifier...
+2025-11-04 21:17:58 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:171 - ✓ Semantic Sonifier initialized
+2025-11-04 21:17:58 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-11-04 21:17:58 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-11-04 21:17:58 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/8775efe7-9ce0-4e4b-b861-f7a0e2384512_image.png
+2025-11-04 21:17:58 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-11-04 21:17:58 - semantic_sonifier.BLIP2Model - INFO - base.py:28 - Initialized BLIP-2 on device: mps
+2025-11-04 21:17:58 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Loading BLIP-2
+2025-11-04 21:18:35 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:40 - ✓ BLIP-2 loaded successfully
+2025-11-04 21:18:35 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Loading BLIP-2 in 36.34s
+2025-11-04 21:18:35 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-11-04 21:18:35 - semantic_sonifier.CLIPMoodAnalyzer - INFO - base.py:28 - Initialized CLIP-Mood-Analyzer on device: mps
+2025-11-04 21:18:35 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Loading CLIP-Mood-Analyzer
+2025-11-04 21:18:42 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:34 - ✓ CLIP-Mood-Analyzer loaded with 16 mood tags
+2025-11-04 21:18:42 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Loading CLIP-Mood-Analyzer in 6.91s
+2025-11-04 21:18:42 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-11-04 21:18:42 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.02s
+2025-11-04 21:18:42 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-11-04 21:18:45 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'lavender field with a lone tree at sunset'
+2025-11-04 21:18:45 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 2.88s
+2025-11-04 21:18:45 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-11-04 21:18:45 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-11-04 21:18:45 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-11-04 21:18:45 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: peaceful (confidence: 0.260)
+2025-11-04 21:18:45 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 0.17s
+2025-11-04 21:18:45 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 46.35s
+2025-11-04 21:18:45 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-11-04 21:18:45 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-11-04 21:18:45 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-11-04 21:18:45 - semantic_sonifier.MusicGenerator - INFO - base.py:28 - Initialized MusicGen on device: mps
+2025-11-04 21:18:45 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Loading MusicGen
+2025-11-04 21:18:55 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:37 - ✓ MusicGen loaded with sample rate 32000
+2025-11-04 21:18:55 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Loading MusicGen in 10.23s
+2025-11-04 21:18:55 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A peaceful piece of music, A peaceful piece of music for lavender field with a lone tree at sunset, with elements of serene'
+2025-11-04 21:19:35 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A peaceful piece of music, A peaceful piece of music for lavender field with a lone tree at sunset, with elements of serene'
+2025-11-04 21:19:35 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A peaceful piece of music, A peaceful piece of music for lavender field with a lone tree at sunset, with elements of serene' in 39.66s
+2025-11-04 21:19:35 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 49.89s
+2025-11-04 21:19:35 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of peaceful music for: lavender field with a lone tree at sunset
+2025-11-04 21:19:35 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 96.24s
+2025-11-05 10:10:06 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-11-05 10:10:06 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-05 10:13:29 - semantic_sonifier - INFO - app.py:63 - Processing image: image.jpeg
+2025-11-05 10:13:29 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:168 - Initializing Semantic Sonifier...
+2025-11-05 10:13:29 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:171 - ✓ Semantic Sonifier initialized
+2025-11-05 10:13:29 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-11-05 10:13:29 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-11-05 10:13:29 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/0ae1d876-c3a2-44a8-8f18-daaf6586f232_image.jpeg
+2025-11-05 10:13:29 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-11-05 10:13:29 - semantic_sonifier.BLIP2Model - INFO - base.py:28 - Initialized BLIP-2 on device: mps
+2025-11-05 10:13:29 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Loading BLIP-2
+2025-11-05 10:14:04 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:40 - ✓ BLIP-2 loaded successfully
+2025-11-05 10:14:04 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Loading BLIP-2 in 34.76s
+2025-11-05 10:14:04 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-11-05 10:14:04 - semantic_sonifier.CLIPMoodAnalyzer - INFO - base.py:28 - Initialized CLIP-Mood-Analyzer on device: mps
+2025-11-05 10:14:04 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Loading CLIP-Mood-Analyzer
+2025-11-05 10:14:12 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:34 - ✓ CLIP-Mood-Analyzer loaded with 16 mood tags
+2025-11-05 10:14:12 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Loading CLIP-Mood-Analyzer in 8.05s
+2025-11-05 10:14:12 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-11-05 10:14:12 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.05s
+2025-11-05 10:14:12 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-11-05 10:14:15 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'a hand holding a single yellow flower against a blue sky'
+2025-11-05 10:14:15 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 3.10s
+2025-11-05 10:14:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-11-05 10:14:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-11-05 10:14:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-11-05 10:14:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: joyful (confidence: 0.208)
+2025-11-05 10:14:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 0.21s
+2025-11-05 10:14:15 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 46.18s
+2025-11-05 10:14:15 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-11-05 10:14:15 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-11-05 10:14:15 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-11-05 10:14:15 - semantic_sonifier.MusicGenerator - INFO - base.py:28 - Initialized MusicGen on device: mps
+2025-11-05 10:14:15 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Loading MusicGen
+2025-11-05 10:14:25 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:37 - ✓ MusicGen loaded with sample rate 32000
+2025-11-05 10:14:25 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Loading MusicGen in 10.16s
+2025-11-05 10:14:25 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A joyful piece of music, A joyful piece of music for a hand holding a single yellow flower against a blue sky'
+2025-11-05 10:14:48 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A joyful piece of music, A joyful piece of music for a hand holding a single yellow flower against a blue sky'
+2025-11-05 10:14:48 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A joyful piece of music, A joyful piece of music for a hand holding a single yellow flower against a blue sky' in 22.68s
+2025-11-05 10:14:48 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 32.84s
+2025-11-05 10:14:48 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of joyful music for: a hand holding a single yellow flower against a blue sky
+2025-11-05 10:14:48 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 79.03s
+2025-11-05 10:15:51 - semantic_sonifier - INFO - app.py:63 - Processing image: image.jpeg
+2025-11-05 10:15:51 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-11-05 10:15:51 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-11-05 10:15:51 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/0cb9c9d8-e9f2-45be-a8d8-89e71c259532_image.jpeg
+2025-11-05 10:15:51 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-11-05 10:15:51 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.00s
+2025-11-05 10:15:51 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-11-05 10:16:15 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'the zebra is black and white'
+2025-11-05 10:16:15 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 24.46s
+2025-11-05 10:16:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-11-05 10:16:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-11-05 10:16:15 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-11-05 10:16:16 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: serene (confidence: 0.154)
+2025-11-05 10:16:16 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 0.41s
+2025-11-05 10:16:16 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 24.87s
+2025-11-05 10:16:16 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-11-05 10:16:16 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-11-05 10:16:16 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A serene piece of music, A serene piece of music for the zebra is black and white'
+2025-11-05 10:16:47 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A serene piece of music, A serene piece of music for the zebra is black and white'
+2025-11-05 10:16:47 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A serene piece of music, A serene piece of music for the zebra is black and white' in 31.22s
+2025-11-05 10:16:47 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 31.22s
+2025-11-05 10:16:47 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of serene music for: the zebra is black and white
+2025-11-05 10:16:47 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 56.10s
+2025-11-07 08:35:08 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-11-07 08:35:08 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-07 08:40:10 - semantic_sonifier - INFO - logging.py:65 - Logging initialized for semantic_sonifier at level INFO
+2025-11-07 08:40:10 - semantic_sonifier - INFO - logging.py:66 - Log files stored in: logs
+2025-11-07 08:40:45 - semantic_sonifier - INFO - app.py:63 - Processing image: download.jpg
+2025-11-07 08:40:45 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:168 - Initializing Semantic Sonifier...
+2025-11-07 08:40:45 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:171 - ✓ Semantic Sonifier initialized
+2025-11-07 08:40:45 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-11-07 08:40:45 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-11-07 08:40:45 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/14ea61cc-43c9-4632-96da-22f892d7f2ce_download.jpg
+2025-11-07 08:40:45 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-11-07 08:40:45 - semantic_sonifier.BLIP2Model - INFO - base.py:28 - Initialized BLIP-2 on device: mps
+2025-11-07 08:40:45 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Loading BLIP-2
+2025-11-07 08:41:21 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:40 - ✓ BLIP-2 loaded successfully
+2025-11-07 08:41:21 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Loading BLIP-2 in 36.01s
+2025-11-07 08:41:21 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-11-07 08:41:21 - semantic_sonifier.CLIPMoodAnalyzer - INFO - base.py:28 - Initialized CLIP-Mood-Analyzer on device: mps
+2025-11-07 08:41:21 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Loading CLIP-Mood-Analyzer
+2025-11-07 08:41:28 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:34 - ✓ CLIP-Mood-Analyzer loaded with 16 mood tags
+2025-11-07 08:41:28 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Loading CLIP-Mood-Analyzer in 6.39s
+2025-11-07 08:41:28 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-11-07 08:41:28 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.11s
+2025-11-07 08:41:28 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-11-07 08:41:31 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'a red rose with water droplets on the petals'
+2025-11-07 08:41:31 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 3.04s
+2025-11-07 08:41:31 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-11-07 08:41:31 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-11-07 08:41:31 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-11-07 08:41:31 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: romantic (confidence: 0.410)
+2025-11-07 08:41:31 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 0.09s
+2025-11-07 08:41:31 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 45.65s
+2025-11-07 08:41:31 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-11-07 08:41:31 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-11-07 08:41:31 - semantic_sonifier.DeviceManager - INFO - device_manager.py:45 - Using Apple Silicon MPS device
+2025-11-07 08:41:31 - semantic_sonifier.MusicGenerator - INFO - base.py:28 - Initialized MusicGen on device: mps
+2025-11-07 08:41:31 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Loading MusicGen
+2025-11-07 08:41:39 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:37 - ✓ MusicGen loaded with sample rate 32000
+2025-11-07 08:41:39 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Loading MusicGen in 8.01s
+2025-11-07 08:41:39 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A romantic piece of music, A romantic piece of music for a red rose with water droplets on the petals'
+2025-11-07 08:42:04 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A romantic piece of music, A romantic piece of music for a red rose with water droplets on the petals'
+2025-11-07 08:42:04 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A romantic piece of music, A romantic piece of music for a red rose with water droplets on the petals' in 25.26s
+2025-11-07 08:42:04 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 33.28s
+2025-11-07 08:42:04 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of romantic music for: a red rose with water droplets on the petals
+2025-11-07 08:42:04 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 78.93s
+2025-11-07 09:20:36 - semantic_sonifier - INFO - app.py:63 - Processing image: download.jpg
+2025-11-07 09:20:36 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-11-07 09:20:36 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-11-07 09:20:36 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/4a6d2c46-a378-4140-924a-b664a362e116_download.jpg
+2025-11-07 09:20:36 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-11-07 09:20:36 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.00s
+2025-11-07 09:20:36 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-11-07 09:21:04 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'a red rose with water droplets on the petals'
+2025-11-07 09:21:04 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 27.58s
+2025-11-07 09:21:04 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-11-07 09:21:04 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-11-07 09:21:04 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-11-07 09:21:04 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: romantic (confidence: 0.410)
+2025-11-07 09:21:04 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 0.41s
+2025-11-07 09:21:04 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 28.00s
+2025-11-07 09:21:04 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-11-07 09:21:04 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-11-07 09:21:04 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A romantic piece of music, A romantic piece of music for a red rose with water droplets on the petals'
+2025-11-07 09:21:35 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A romantic piece of music, A romantic piece of music for a red rose with water droplets on the petals'
+2025-11-07 09:21:35 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A romantic piece of music, A romantic piece of music for a red rose with water droplets on the petals' in 30.69s
+2025-11-07 09:21:35 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 30.69s
+2025-11-07 09:21:35 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of romantic music for: a red rose with water droplets on the petals
+2025-11-07 09:21:35 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 58.69s
+2025-11-07 09:27:31 - semantic_sonifier - INFO - app.py:63 - Processing image: ed7a-how-to-buy-a-puppy-article-dog.png
+2025-11-07 09:27:31 - semantic_sonifier.SemanticSonifier - INFO - logging.py:83 - Starting: Semantic Sonification
+2025-11-07 09:27:31 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:83 - Starting: ImageAnalyzer.process
+2025-11-07 09:27:31 - semantic_sonifier.ImageAnalyzer - INFO - sonifier.py:32 - Analyzing image: uploads/626e467e-dc4b-491d-897c-8857b2de8cc0_ed7a-how-to-buy-a-puppy-article-dog.png
+2025-11-07 09:27:31 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: Image loading
+2025-11-07 09:27:31 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: Image loading in 0.01s
+2025-11-07 09:27:31 - semantic_sonifier.BLIP2Model - INFO - logging.py:83 - Starting: BLIP-2 processing
+2025-11-07 09:27:45 - semantic_sonifier.BLIP2Model - INFO - blip2_wrapper.py:101 - Generated caption: 'a beagle dog running with a red ball in its mouth'
+2025-11-07 09:27:45 - semantic_sonifier.BLIP2Model - INFO - logging.py:89 - Completed: BLIP-2 processing in 14.60s
+2025-11-07 09:27:45 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: Image loading for mood analysis
+2025-11-07 09:27:45 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: Image loading for mood analysis in 0.00s
+2025-11-07 09:27:45 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:83 - Starting: CLIP mood analysis
+2025-11-07 09:27:46 - semantic_sonifier.CLIPMoodAnalyzer - INFO - clip_mood_analyzer.py:87 - Detected mood: energetic (confidence: 0.539)
+2025-11-07 09:27:46 - semantic_sonifier.CLIPMoodAnalyzer - INFO - logging.py:89 - Completed: CLIP mood analysis in 0.55s
+2025-11-07 09:27:46 - semantic_sonifier.ImageAnalyzer - INFO - logging.py:89 - Completed: ImageAnalyzer.process in 15.16s
+2025-11-07 09:27:46 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:83 - Starting: MusicOrchestrator.process
+2025-11-07 09:27:46 - semantic_sonifier.MusicOrchestrator - INFO - sonifier.py:75 - Orchestrating music generation...
+2025-11-07 09:27:46 - semantic_sonifier.MusicGenerator - INFO - logging.py:83 - Starting: Music generation: 'A energetic piece of music, A energetic piece of music for a beagle dog running with a red ball in its mouth'
+2025-11-07 09:28:15 - semantic_sonifier.MusicGenerator - INFO - music_generator.py:83 - Generated 9.9s audio for: 'A energetic piece of music, A energetic piece of music for a beagle dog running with a red ball in its mouth'
+2025-11-07 09:28:15 - semantic_sonifier.MusicGenerator - INFO - logging.py:89 - Completed: Music generation: 'A energetic piece of music, A energetic piece of music for a beagle dog running with a red ball in its mouth' in 29.33s
+2025-11-07 09:28:15 - semantic_sonifier.MusicOrchestrator - INFO - logging.py:89 - Completed: MusicOrchestrator.process in 29.33s
+2025-11-07 09:28:15 - semantic_sonifier.SemanticSonifier - INFO - sonifier.py:203 - Successfully generated 9.9s of energetic music for: a beagle dog running with a red ball in its mouth
+2025-11-07 09:28:15 - semantic_sonifier.SemanticSonifier - INFO - logging.py:89 - Completed: Semantic Sonification in 44.49s
